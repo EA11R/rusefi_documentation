@@ -67,10 +67,10 @@ Usually works in this order
 Technically Speaking while wiring ur new RusEFI ECU Unit you should see if your car starts the relay VIA "ECU PIN" from ur oem unit 
 or switched Externally VIA Ignition Key Switch 
 
-(**IF**) your car is "IGNITION SWITCH OPERATED RELAY" (NO ECM CONTROL) link VIGN and 12V(B+) inputs together for BATT voltage to display correctly
+(**IF**) your car is "IGNITION SWITCH OPERATED RELAY" (NO ECM CONTROL) link VIGN and 12V(Switched B+ from ur old ecu wire) inputs together for BATT voltage to display correctly
 
 (**HOWEVER**) if your car is switched by a ECM pin take a free "LS" low side output and replace ur old relay operation signal with it 
-feedback VIGN with power returing from MAIN RELAY They're usually labeled in manuals as "ECU POWER" "ECU 12V" and the regular switch power or battery
+feedback VIGN with power returning from MAIN RELAY They're usually labeled in manuals as "ECU POWER" "ECU 12V" and the regular switch power or battery
 is refered as "12v" "B+" ETC When connecting refrence power to ECM it's prefered to USE "RELAY 12V OUT" for Voltage Reading ("VIGN")
 
 so a quick way to explain all of this is  
